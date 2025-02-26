@@ -20,3 +20,14 @@ def find_words(filename):
                     print(word)
 
 find_words("input.txt")
+
+def divisor(a):
+    b = 1
+    while b < a:
+        if b % a == 0:
+            print(b)
+            b+=1
+        else:
+            b+=1
+
+divisor(10)
